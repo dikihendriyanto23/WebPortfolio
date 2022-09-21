@@ -1,0 +1,154 @@
+.navbar-brand {
+  color: #659dbd;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Viga", sans-serif;
+}
+
+.navbar .nav-link {
+  font-weight: 550;
+  font-size: 14px;
+  font-family: "Poppins";
+}
+
+.navbar-nav .active {
+  color: #659dbd !important;
+  font-weight: 700;
+}
+
+#Home h1 {
+  color: #659dbd;
+  font-family: "Viga";
+}
+
+.profHead {
+  color: rgb(138, 151, 151);
+  font-size: 16px;
+  margin-top: -8px;
+}
+
+.deskripsiHead {
+  font-size: 14px;
+  margin-top: -5px;
+  font-family: "Poppins";
+}
+
+.jumbotron {
+  padding-top: 85px;
+  padding-bottom: 60px;
+}
+
+#Home .btn {
+  background-color: #659dbd;
+  color: white;
+  font-size: 14px;
+  border-radius: 16px;
+}
+
+#Home .btn:hover {
+  opacity: 0.9;
+}
+
+#Home svg {
+  position: absolute;
+  margin-left: -180px;
+  z-index: -1;
+}
+
+#Home img {
+  width: 225px;
+}
+
+#Home .bi {
+  color: rgba(0, 0, 0, 0.305);
+}
+
+#Home .bi:hover {
+  color: #659dbd;
+}
+
+.form-control {
+  background-color: #e4e4e4;
+}
+
+#Portfolio img {
+  width: 100%;
+  height: 225px;
+}
+
+#About h2,
+#ContactMe h2,
+#Portfolio h2 {
+  color: #659dbd;
+}
+
+#ContactMe .btn {
+  background-color: #659dbd;
+  color: white;
+}
+
+#ContactMe .btn:hover {
+  opacity: 0.9;
+}
+
+#ContactMe label {
+  color: #659dbd;
+  font-weight: 450;
+}
+
+footer {
+  background-color: #659dbd;
+  bottom: 0;
+  padding-bottom: 15px;
+  padding-top: 30px;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+footer a:hover {
+  color: white;
+  font-weight: 700;
+}
+
+section {
+  padding-top: 55px;
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .navbar .nav-link {
+    margin-left: 25px;
+  }
+
+  .nav-link:hover {
+    border-bottom: 3px solid #659dbd;
+    margin-bottom: -3px;
+    color: #659dbd;
+    font-weight: 700;
+  }
+
+  #Home img {
+    width: 250px;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 0) {
+  #Portfolio .col-md-4 {
+    margin-bottom: 25px;
+  }
+
+  #Portfolio img {
+    width: 100%;
+    height: 200px;
+  }
+
+  .nav-link:hover {
+    color: #659dbd;
+    font-weight: 700;
+  }
+}
